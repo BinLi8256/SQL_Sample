@@ -25,4 +25,11 @@ HAVING COUNT(email) > 1
 
 ------------------------------------------ BL Notes ------------------------------------------
 -- Difference between WHERE and HAVING
-/Users/bl/Desktop/Screenshot 2025-08-03 at 2.54.43 PM.png
+----------------------------------------------------------------------------------------------
+--                WHERE                                     HAVING
+----------------------------------------------------------------------------------------------
+-- filters rows before aggregation           |   filters groups after aggregation
+-- implements in row operations              |   implements in column operation
+-- cannot contain aggregate function         |   can contain aggregate function
+-- can be used with SELECT, UPDATE, DELETE   |   can only be used with SELECT
+-----------------------------------------------------------------------------------------------
